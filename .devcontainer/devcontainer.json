@@ -31,7 +31,10 @@
 	// "shutdownAction": "none",
 
 	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "pip install -r requirements.txt"
+	"postCreateCommand": "pip install -r requirements.txt",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
